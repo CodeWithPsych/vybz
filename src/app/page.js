@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto px-4 py-8 h-screen">
+<main className="container mx-auto px-4 py-8 h-[90%]">
       <Header/>
       <VideoFeed videos={videos} />
     </main>
